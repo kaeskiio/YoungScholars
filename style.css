@@ -10,3 +10,47 @@
     cursor: pointer; /* Cursor style */
     border-radius: 5px; /* Rounded corners */
 }
+
+/* Style for the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height to 100% of the viewport height */
+}
+
+/* Style for the input container */
+.input-container {
+    margin-bottom: 20px; /* Add some spacing between input containers */
+}
+
+/* Style for the label */
+.label {
+    margin-right: 10px; /* Add some spacing between the label and the textbox */
+}
+
+/* Style for the textbox */
+.textbox {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+/* Style for the button */
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the result display */
+.result {
+    margin-top: 20px; /* Add some spacing between input and result */
+}

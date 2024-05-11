@@ -10,7 +10,33 @@
 
     <!-- Button element -->
     <button class="top-left-button" id="myButton">More Information</button>
-
+   <!-- Container for centering -->
+   <div class="container">
+    <!-- BPM Input -->
+    <div class="input-container">
+        <label for="bpmInput" class="label">Heart Rate(BPM):</label>
+        <input type="text" class="textbox" id="bpmInput" placeholder="Enter Heart Rate...">
+    </div>
+    <!-- Blood Oxygen Input -->
+    <div class="input-container">
+        <label for="oxygenInput" class="label">Blood Oxygen(%):</label>
+        <input type="text" class="textbox" id="oxygenInput" placeholder="Enter Blood Oxygen...">
+    </div>
+    <!-- Hydration Input -->
+    <div class="input-container">
+        <label for="hydrationInput" class="label">Hydration(%):</label>
+        <input type="text" class="textbox" id="hydrationInput" placeholder="Enter Hydration...">
+    </div>
+    <!-- Blood Pressure Input -->
+    <div class="input-container">
+        <label for="pressureInput" class="label">Blood Pressure(systolic/mmHg):</label>
+        <input type="text" class="textbox" id="pressureInput" placeholder="Enter Blood Pressure...">
+    </div>
+    <!-- Button to collect user input -->
+    <button class="button" onclick="collectUserInput()">See Your Results!</button>
+    <!-- Result display -->
+    <div class="result" id="resultDisplay"></div>
+    </div>
     <script src ="script.js"></script>
 
 </body>
