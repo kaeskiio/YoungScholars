@@ -3,4 +3,6 @@ function redirectToNewPage() {
 }
 
 // Add event listener to the button
-document.getElementById('myButton').addEventListener('click', redirectToNewPage);
+document.getElementById("Top-Left Button").addEventListener("click", function(){
+    window.location.href="info.html"
+});
