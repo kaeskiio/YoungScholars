@@ -10,6 +10,7 @@ function redirectToNewPage() {
 function taskMangerPage(){
     window.location.href = 'info.html'; // Change 'newpage.html' to the desired URL
 }
+//Change
 
 document.getElementById("info-button").addEventListener('click', taskMangerPage);
 
