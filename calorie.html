@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calorie Tracker</h1>
+        <div id="startSection">
+            <label for="name">Enter Your Name:</label>
+            <input type="text" id="name">
+            <button id="startButton">Start Tracking!</button>
+        </div>
+        <div id="tracker" style="display: none;">
+            <h2>Welcome <span id="userName"></span>!</h2>
+            <div class="input-section">
+                <label for="intake">Enter calorie intake:</label>
+                <input type="number" id="intake" min="0">
+                <button id="addIntake">Add Intake</button>
+            </div>
+            <div id="output"></div>
+            <div id="progressBarContainer">
+                <progress id="progressBar" value="0" max="100"></progress>
+                <p id="progressText">0%</p>
+            </div>
+            <button id="resetButton">Reset Tracker</button>
+        </div>
+    </div>
+    <script src="caloriescript.js"></script>
+</body>
+</html>

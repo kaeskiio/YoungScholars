@@ -10,3 +10,41 @@
     cursor: pointer; /* Cursor style */
     border-radius: 5px; /* Rounded corners */
 }
+
+.side-button{
+    position: fixed; /* Position the button relative to the viewport */
+    top: 20px; /* Distance from the top edge of the viewport */
+    left: 200px; /* Distance from the left edge of the viewport */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    border: none; /* No border */
+    cursor: pointer; /* Cursor style */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.info-area p {
+    font-size: 11px; /* Adjust the font size for the paragraph */
+}
+
+.info-area h2{
+    font-size: 20px;
+}
+
+.info-area {
+    margin-top: 60px; /* Add margin to the top */
+    padding: 5px; /* Add padding for better spacing */
+    background-color: #f0f0f0; /* Background color for better visibility */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/* Style for heading in information areas */
+.info-area h2 {
+    margin-bottom: 5px; /* Add margin below heading */
+}
+
+/* Style for text in information areas */
+.info-area p {
+    line-height: 1.5; /* Increase line height for better readability */
+}
