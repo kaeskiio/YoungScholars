@@ -1,3 +1,27 @@
+// Function to redirect to a new page
+function redirectToNewPage() {
+    window.location.href = 'index.html'; // Change 'newpage.html' to the desired URL
+}
+
+    // Add event listener to the button
+    document.getElementById('home-button').addEventListener('click', redirectToNewPage);
+
+
+function taskMangerPage(){
+    window.location.href = 'info.html'; // Change 'newpage.html' to the desired URL
+}
+
+document.getElementById("info-button").addEventListener('click', taskMangerPage);
+
+function caloriePage(){
+    window.location.href = 'tasks.html'; // Change 'newpage.html' to the desired URL
+}
+
+document.getElementById("task-button").addEventListener('click', caloriePage);
+
+
+
+
 // Define Info class to store user information
 class Info {
     constructor() {

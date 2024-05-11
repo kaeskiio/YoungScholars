@@ -13,6 +13,11 @@ function taskMangerPage(){
 
 document.getElementById("taskButton").addEventListener('click', taskMangerPage);
 
+function caloriePage(){
+    window.location.href = 'calorie.html'; // Change 'newpage.html' to the desired URL
+}
+
+document.getElementById("calorie-button").addEventListener('click', caloriePage);
 
 // Add a new task.
 let taskInput = document.getElementById("new-task");

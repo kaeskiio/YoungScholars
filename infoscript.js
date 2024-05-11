@@ -14,4 +14,10 @@ function taskPage() {
 // Add event listener to the button
 document.getElementById('side-button').addEventListener('click', taskPage);
 
+function caloriePage(){
+    window.location.href = 'calorie.html'; // Change 'newpage.html' to the desired URL
+}
+
+document.getElementById("calorie-button").addEventListener('click', caloriePage);
+
   
