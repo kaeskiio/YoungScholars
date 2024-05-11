@@ -7,34 +7,34 @@
     <link rel="stylesheet" href="caloriestyle.css">
 </head>
 <body>
-    <!-- Button element -->
+    <header>
+        <h1>Calorie Tracker</h1>
+    </header>
+    <main>
+        <!-- Button element -->
     <button class="home-button" id="home-button">Home Page</button>
     <!-- Button element -->
     <button class="info-button" id="info-button">More Information</button>
     <!-- Button element -->
     <button class="task-button" id="task-button">Task Manager</button>
-    <div class="container">
-        <h1>Calorie Tracker</h1>
-        <div id="startSection">
-            <label for="name">Enter Your Name:</label>
-            <input type="text" id="name">
-            <button id="startButton">Start Tracking!</button>
-        </div>
-        <div id="tracker" style="display: none;">
-            <h2>Welcome <span id="userName"></span>!</h2>
-            <div class="input-section">
-                <label for="intake">Enter calorie intake:</label>
-                <input type="number" id="intake" min="0">
-                <button id="addIntake">Add Intake</button>
-            </div>
-            <div id="output"></div>
-            <div id="progressBarContainer">
-                <progress id="progressBar" value="0" max="100"></progress>
-                <p id="progressText">0%</p>
-            </div>
-            <button id="resetButton">Reset Tracker</button>
-        </div>
-    </div>
+        <section id="calorieGoalSection">
+            <h2>Set Your Calorie Goal</h2>
+            <form id="calorieGoalForm">
+                <label for="calorieGoalInput">Enter your daily calorie goal:</label>
+                <input type="number" id="calorieGoalInput" name="calorieGoal" required>
+                <button type="submit">Set Goal</button>
+            </form>
+        </section>
+        <section id="calorieIntakeSection" style="display: none;">
+            <h2>Track Your Calorie Intake</h2>
+            <form id="calorieIntakeForm">
+                <label for="calorieIntakeInput">Enter your calorie intake:</label>
+                <input type="number" id="calorieIntakeInput" name="calorieIntake" required>
+                <button type="submit">Add Intake</button>
+            </form>
+            <div id="calorieIntakeDisplay"></div>
+        </section>
+    </main>
     <script src="caloriescript.js"></script>
 </body>
 </html>
