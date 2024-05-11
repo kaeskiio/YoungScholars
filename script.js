@@ -6,6 +6,17 @@ function redirectToNewPage() {
     // Add event listener to the button
     document.getElementById('myButton').addEventListener('click', redirectToNewPage);
 
+
+function taskMangerPage(){
+    window.location.href = 'tasks.html'; // Change 'newpage.html' to the desired URL
+}
+
+document.getElementById("taskButton").addEventListener('click', taskMangerPage);
+
+
+
+
+
 // Function to collect user input
 function collectUserInput() {
     // Get values from input boxes and assign them to variables
